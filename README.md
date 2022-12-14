@@ -20,12 +20,16 @@ We used Pandas to determine if there is any bias towards favorable reviews from 
 We filtered to the following:
 
 * DataFrame is filtered to retrieve all the rows where the total_votes count is equal to or greater than 20 to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on.
+<img width="615" alt="Filter1-20" src="https://user-images.githubusercontent.com/110875578/207528960-72a37b91-b731-44c3-bd8d-47ef039b7088.png">
 
 * Filter the new DataFrame or table created in Step 1 and create a new DataFrame or table to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
+<img width="788" alt="Filter2-50" src="https://user-images.githubusercontent.com/110875578/207528977-fda01c66-ce6b-436a-9bab-eda554eab43a.png">
 
 * Filter the DataFrame or table created in Step 2, and create a new DataFrame or table that retrieves all the rows where a review was written as part of the Vine program (paid)
+<img width="771" alt="Fitler3-Paid" src="https://user-images.githubusercontent.com/110875578/207528992-40c856bc-4f58-4b39-a759-35502c3be519.png">
 
 * Filter the DataFrame or table created in Step 2, and create a new DataFrame or table that retrieves all the rows where a review was not part of the Vine program (unpaid)
+<img width="797" alt="Filter4-Unpaid" src="https://user-images.githubusercontent.com/110875578/207529004-5c931d14-204e-4425-8643-3c5fc8e2c1ca.png">
 
 ### **Results** 
 Vine Program:
